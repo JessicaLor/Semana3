@@ -1,0 +1,174 @@
+html, body{
+    margin: 0;
+}
+
+h1{
+    text-align:center ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(134, 187, 236, 0.116);
+    text-align: justify;
+}
+a{
+    text-decoration:none;
+    border-radius: 50px;
+}
+#acao:hover{
+    background-color: rgba(0, 174, 255, 0.164);
+    font-size: 25px;
+}
+#imagem_fundo{
+    background: url("img/12.jpg");
+    height: 100%;
+    background-size:100% 100%;
+}
+#titulo{
+    color: black;
+    padding-top: 20%;
+    font-size: 30px;
+    line-height: 0,6;
+}
+#subtitulo{
+    color:black;
+    margin-left: 20%;
+    margin-right:20%;
+    border-top: 3px solid black;
+    text-shadow: 1px 20px 10px 20px;
+    padding-top: 15px;
+    padding-left: 550px;
+}
+#acao{ 
+    color:black;
+    border: 1px black solid;
+    padding: 10px 20px 10px 20px;
+    margin-left: 45%;
+}
+.logo{
+    height: 50px;
+    width: 30px;
+}
+#cabecalho{
+    background-color:white;
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    height: 50px;
+
+}
+nav{
+    float: right;
+}
+.etapas{
+    float: left;
+    padding:10px 20px;
+}
+ul{
+    list-style: none;
+    margin-right:20px;
+}
+li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+#abastecimento{
+    padding: 0px 150px;
+}
+#esgoto{
+    padding: 0px 150px;
+    float: right;
+}
+#chuva{
+    padding: 0px 150px;
+}
+#lixo{
+  padding: 0px 150px;  
+}
+#contato{
+    clear: both;
+    background-color:white ;
+    display:flex;
+    text-align: center;
+    padding-left: 45%;
+}
+#introducao{
+    float: right;
+    padding: 0px 150px;
+}
+#foto{
+    float: left;
+    padding-right: 10px;
+}
+#geral{
+    padding: 0px 150px;
+}
+.etapas:hover{
+    background-color: rgba(0, 128, 128, 0.24);
+}
+#tratamento{
+    padding: 0px 150px;
+    float: left;
+}
+@media all and (max-width:760px){ 
+    body{
+        margin: 0;
+        border: none;
+        padding: 0;
+    }
+    #introducao, #geral, #esgoto, #tratamento, #chuva, #lixo, #abastecimento{
+       width: 90%;
+       display: block;
+       float: none;
+       padding: 0;
+   }
+   nav{
+      visibility: hidden; 
+   }
+   #imagem_fundo{
+       width: 100%;
+       display: block;
+       height: 80%;
+    }
+    h1{
+        margin: 0;
+        padding: 0;
+        font-size: 10vw;
+    }
+    h2{
+        font-size: 6vw;
+        margin: 0;
+    }
+    h3{
+        font-size: 6vw;
+        margin: 0;
+    }
+    h4{
+        font-size: 5vw;
+    }
+    p{
+        font-size: 5vw;
+    }
+    li{
+        float: none;
+        font-size: 5vw;
+    }
+    #aqui{
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    #titulo{
+        font-size: 6vw;
+    }
+    #subtitulo{
+        font-size: 5vw;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    #foto2{
+        width: 100%;
+    }
+    
+}
